@@ -7,3 +7,5 @@ console.log("hello chai");
 console.log(user.name);
 
 let a: number = 10;
+
+export{}

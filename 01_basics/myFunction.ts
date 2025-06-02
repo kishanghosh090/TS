@@ -23,11 +23,11 @@ loginUser("6dPnM@example.com", "password");
 // console.log(getUpper("hello")); // HELLO
 // console.log(addTwo(2)); // 4
 
-function getValue(myVal: number): boolean {
+function getValue(myVal: number): boolean | string {
   if (myVal > 10) {
     return true;
   } else {
-    return false;
+    return "";
   }
 }
 
@@ -38,9 +38,10 @@ const getHello = (s: string): string => {
 const heros = ["Superman", "Batman", "Spiderman"];
 // const heros = [1, 2, 3, 4];
 
-heros.map((hero: string) => {
+const heroStrings = heros.map((hero: string) => {
   return `hero is ${hero}`;
 });
+// console.log(heroStrings);
 
 function consoleError(errmsg: string): void {
   console.log(errmsg);
@@ -49,6 +50,7 @@ function consoleError(errmsg: string): void {
 
 function handleError(errmsg: string): never {
   console.log(errmsg);
+
   throw `Error: ${errmsg}`;
 }
 

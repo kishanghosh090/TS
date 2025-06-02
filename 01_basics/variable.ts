@@ -1,7 +1,11 @@
 let greetings: string = "Hello World!";
 let myNum: number = 6;
+
+greetings = ""
 console.log(greetings); // Output: Hello World!
 console.log(myNum); // Output: 6
+
+myNum.toFixed()
 
 let isLoggedIn: boolean = true;
 let isLoggedOut: boolean = false;
