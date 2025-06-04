@@ -45,11 +45,12 @@ const heroStrings = heros.map((hero: string) => {
 });
 // console.log(heroStrings);
 
-function consoleError(errmsg: string): void {
+function consoleError(errmsg: string | number): void {
   console.log(errmsg);
   // return `Error: ${errmsg}`;
 }
 
+// never is used for throwing error in functions in typescript (it never returns anything)
 function handleError(errmsg: string): never {
   console.log(errmsg);
 
