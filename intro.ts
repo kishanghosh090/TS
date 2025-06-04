@@ -7,5 +7,11 @@ console.log("hello chai");
 console.log(user.name);
 
 let a: number = 10;
+let b: string = "10";
 
-export{}
+let c: number = a + parseInt(b);
+
+console.log(c);
+
+
+export {};

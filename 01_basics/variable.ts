@@ -1,4 +1,4 @@
-let greetings: string = "Hello World!";
+let greetings: string = "Hello chai!";
 let myNum: number = 6;
 
 greetings = ""
