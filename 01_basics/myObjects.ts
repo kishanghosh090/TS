@@ -21,27 +21,17 @@ function createCourse(): { name: string; isPaid: boolean; price: number } {
 }
 const course = createCourse();
 // console.log(course);
+
+// readonly
 type User = {
   readonly _id: string;
   name: string;
   email: string;
-  isActive: boolean;
+  isActive?: boolean;
+  //   cardNumber: string;
+  //   cardHolder: string;
+  //   cvv: number;
 };
-
-function createUser2(user: User) {
-  console.log(user);
-  console.log(user.name);
-  console.log(user.email);
-}
-let myUser: User = {
-  _id: "abc123",
-  name: "kishan",
-  email: "kishan@gmail.com",
-  isActive: true,
-};
-
-createUser2(myUser);
-
 type cardNumber = {
   cardNumber: string;
 };
@@ -51,5 +41,23 @@ type cardDate = {
 };
 
 type cardDetails = cardNumber & cardDate & { cvv: number };
+
+function createUser2(user: User) {
+  console.log(user);
+  // user._id = "kishan";
+  console.log(user.name);
+  console.log(user.email);
+}
+let myUser: User = {
+  _id: "abc123",
+  name: "kishan",
+  email: "kishan@gmail.com",
+  isActive: true,
+  // cardNumber: 1234,
+  // cardHolder: "kishan",
+  // cvv: 123,
+};
+
+createUser2(myUser);
 
 export {};

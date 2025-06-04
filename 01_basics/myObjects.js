@@ -22,6 +22,7 @@ function createCourse() {
 var course = createCourse();
 function createUser2(user) {
     console.log(user);
+    // user._id = "kishan";
     console.log(user.name);
     console.log(user.email);
 }
@@ -31,3 +32,4 @@ var myUser = {
     email: "kishan@gmail.com",
     isActive: true,
 };
+createUser2(myUser);
