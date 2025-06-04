@@ -6,9 +6,11 @@ function getUpper(val: string) {
   return val.toUpperCase();
 }
 
-function signUpUser(name, email, isPaid: boolean) {
+// return a string
+function signUpUser(name: string, email: string, isPaid: boolean): string {
   console.log("Name: ", name);
   console.log("Email: ", email);
+  return `welcome ${name} ...Nice I can access your email ${email}`;
 }
 
 signUpUser("John", "6dPnM@example.com", true);
@@ -18,7 +20,7 @@ let loginUser = (email: string, password: string, isPaid: boolean = false) => {
   console.log("Password: ", password);
 };
 
-loginUser("6dPnM@example.com", "password");
+loginUser("kishanranaghosh@gmail.com", "password");
 
 // console.log(getUpper("hello")); // HELLO
 // console.log(addTwo(2)); // 4
