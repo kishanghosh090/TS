@@ -8,9 +8,10 @@ var User = {
 function createUser(user) {
     console.log(user);
     console.log(user.name);
-    console.log(user.email);
+    //   console.log(user.email);
 }
-// createUser(User);
+// createUser({name: "kishan", isActive: true, email: "kishan@gmail.com"});
+createUser(User);
 function createCourse() {
     return {
         name: "React",
@@ -19,4 +20,14 @@ function createCourse() {
     };
 }
 var course = createCourse();
-console.log(course);
+function createUser2(user) {
+    console.log(user);
+    console.log(user.name);
+    console.log(user.email);
+}
+var myUser = {
+    _id: "abc123",
+    name: "kishan",
+    email: "kishan@gmail.com",
+    isActive: true,
+};

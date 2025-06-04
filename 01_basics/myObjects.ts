@@ -1,16 +1,17 @@
-// const User = {
-// name: "kishan",
-// email: "kishan@gmail.com",
-// isActive: true,
-// };
+const User = {
+  name: "kishan",
+  email: "kishan@gmail.com",
+  isActive: true,
+};
 
-function createUser(user: { name: string; isActive: boolean }) {
+function createUser(user: { name: string; email: string, isActive: boolean }) {
   console.log(user);
   console.log(user.name);
   //   console.log(user.email);
 }
 // createUser({name: "kishan", isActive: true, email: "kishan@gmail.com"});
-// createUser(User);
+createUser(User);
+
 
 function createCourse(): { name: string; isPaid: boolean; price: number } {
   return {
@@ -42,12 +43,12 @@ let myUser: User = {
 
 type cardNumber = {
   cardNumber: string;
-}
+};
 
 type cardDate = {
   cardHolder: string;
-}
+};
 
-type cardDetails = cardNumber & cardDate & {cvv: number};
+type cardDetails = cardNumber & cardDate & { cvv: number };
 
 export {};
