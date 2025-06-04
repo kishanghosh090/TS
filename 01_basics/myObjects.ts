@@ -4,14 +4,13 @@ const User = {
   isActive: true,
 };
 
-function createUser(user: { name: string; email: string, isActive: boolean }) {
+function createUser(user: { name: string; email: string; isActive: boolean }) {
   console.log(user);
   console.log(user.name);
   //   console.log(user.email);
 }
 // createUser({name: "kishan", isActive: true, email: "kishan@gmail.com"});
 createUser(User);
-
 
 function createCourse(): { name: string; isPaid: boolean; price: number } {
   return {
@@ -40,6 +39,8 @@ let myUser: User = {
   email: "kishan@gmail.com",
   isActive: true,
 };
+
+createUser2(myUser);
 
 type cardNumber = {
   cardNumber: string;
