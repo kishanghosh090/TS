@@ -55,7 +55,10 @@ function makeChai(type: ChaiTypes) {
 
 makeChai(ChaiTypes.GINGER);
 
-enum RandomEnum {
+const enum RandomEnum {
   ID = 1,
   NAME = "chai",
 }
+
+let t: [string, number] = ["chai", 10];
+t.push("extra");
