@@ -39,4 +39,11 @@ function makeChai(type) {
     console.log(type.valueOf());
 }
 makeChai(ChaiTypes.GINGER);
+var RandomEnum;
+(function (RandomEnum) {
+    RandomEnum[RandomEnum["ID"] = 1] = "ID";
+    RandomEnum["NAME"] = "chai";
+})(RandomEnum || (RandomEnum = {}));
+let t = ["chai", 10];
+t.push("extra");
 //# sourceMappingURL=arrEnums.js.map
