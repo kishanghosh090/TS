@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const chai = {
     name: "kishan",
     price: 20,
@@ -48,4 +46,5 @@ const chaiInfo2 = {
     isHot: true,
     ingredients: ["elychi", "milk"],
 };
+export {};
 //# sourceMappingURL=objectts.js.map

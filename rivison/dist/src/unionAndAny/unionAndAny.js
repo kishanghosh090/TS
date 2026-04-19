@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let subs = "1M"; //UNION
 // not good ... tooo bad
 let anyType;
@@ -26,4 +24,5 @@ for (const el of orders) {
 }
 // currentOrder = 23;
 console.log(currentOrder);
+export {};
 //# sourceMappingURL=unionAndAny.js.map

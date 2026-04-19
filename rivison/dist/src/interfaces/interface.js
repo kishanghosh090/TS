@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // function makeChai(order: { type: string; sugar: number; strong: boolean }) {
 //   console.log(order);
 // }
@@ -33,4 +31,5 @@ const cfg = {
     appName: "MasterJI",
     version: 1.2,
 };
+export {};
 //# sourceMappingURL=interface.js.map

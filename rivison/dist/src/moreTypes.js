@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let response = "42";
 // forcefull type assertation
 let numeric = response.length;
@@ -39,4 +37,5 @@ function redirsctBasedOnRole(role) {
         return;
     }
 }
+export {};
 //# sourceMappingURL=moreTypes.js.map

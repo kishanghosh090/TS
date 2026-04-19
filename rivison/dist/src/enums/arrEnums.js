@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const chaiFlav = ["Masala", "Elaychi"];
 const chaiPrice = [23, 4443, 43434];
 const rating = [323, 323];
@@ -46,4 +44,5 @@ var RandomEnum;
 })(RandomEnum || (RandomEnum = {}));
 let t = ["chai", 10];
 t.push("extra");
+export {};
 //# sourceMappingURL=arrEnums.js.map
