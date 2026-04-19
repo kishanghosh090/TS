@@ -1,8 +1,8 @@
-import axios from "axios";
+import axios, { type AxiosResponse } from "axios";
 
 axios
   .get("https://kishanranaghosh.xyz")
-  .then((response) => {
+  .then((response: AxiosResponse) => {
     console.log(response.headers);
   })
   .catch((err) => {
