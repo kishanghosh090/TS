@@ -67,3 +67,14 @@ const u: User = {
   age: 10,
 };
 
+// interface can inherit
+interface Admin extends User {
+  adminWork: string;
+}
+
+const a: Admin = {
+  name: "KISHAN",
+  age: 10,
+  adminWork: "*",
+};
+
